@@ -1,0 +1,23 @@
+@media only screen and (max-width: 1096px) {
+    #news-panel .news-list li {
+        display: inline-block;
+        float:left;
+        overflow: auto;
+        border: 3px solid yellow;
+    }
+    #news-panel .news-list li img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    #slideShow img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #news-panel h2{
+        font-size: 15px;
+    }
+}

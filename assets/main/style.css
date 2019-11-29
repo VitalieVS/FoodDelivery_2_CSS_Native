@@ -96,6 +96,7 @@ p{
 #slideShow{
     width: 100%;
     margin:auto;
+    height: 100%;
 }
 
 #slideShow img{
@@ -406,7 +407,7 @@ mark{
 }
 
 h2{
-    text-align: center;
+
     color: white;
     font-size: 30px;
 }
@@ -437,15 +438,15 @@ h2{
 }
 
 #news-panel{
-    width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
 }
 
 #news-panel .news-list{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 22px;
+    grid-column-gap: 10px;
     grid-row-gap: 0px;
     list-style: none;
     text-align: center;
@@ -462,7 +463,7 @@ h2{
 }
 
 #news-panel img{
-    width: 600px;
+    width: 100%;
     height: 500px;
 }
 
@@ -472,13 +473,16 @@ h2{
 
 footer{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
 }
 
 h5{
     color: white;
     font-size: 17px;
+}
+
+footer ul{
+    list-style: none;
 }
 
 h5:hover{
@@ -491,6 +495,15 @@ footer .footer-content{
     grid-template-rows: 1fr;
     grid-column-gap: 22px;
     grid-row-gap: 0px;
+}
+
+footer i a{
+    width: 6%;
+}
+
+footer i:hover{
+    border: 2px solid yellow;
+    cursor: pointer;
 }
 
 footer .footer-content li:nth-child(1) { grid-area: 1 / 1 / 2 / 2; }
