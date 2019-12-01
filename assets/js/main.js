@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $( ".pizza-item" ).click(function() {
+    $( ".content-item" ).click(function() {
         alert( "Handler for .click() called." );
     });
 
