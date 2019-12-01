@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-    let x = [] ;
-    let s = 0;
-
     $( ".pizza-item" ).click(function() {
         alert( "Handler for .click() called." );
     });
