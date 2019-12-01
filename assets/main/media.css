@@ -1,9 +1,10 @@
 @media only screen and (max-width: 1096px) {
-    #news-panel .news-list li {
-        display: inline-block;
-        float:left;
-        overflow: auto;
-        border: 3px solid yellow;
+    #news-panel .news-list  {
+        display: inline-block !important;
+        margin-right: 5%;
+    }
+    #news-panel{
+        background-color: rgba(0, 0, 0, 0.7);
     }
     #news-panel .news-list li img {
         width: 100%;
@@ -17,7 +18,30 @@
         height: 100% !important;
     }
 
+    #adsPanel{
+        margin-top: 50% !important;
+    }
+    #adsPanel .parent{
+        margin-right: 5% !important;
+    }
+
     #news-panel h2{
         font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #slideShow{
+        display: none;
+    }
+    footer .footer-content{
+        display: inline-block !important;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .dropdown-content {
+        min-width: 140px !important;
+        margin-left: -15%;
     }
 }
