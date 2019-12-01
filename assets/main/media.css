@@ -45,3 +45,9 @@
         margin-left: -15%;
     }
 }
+
+@media only screen and (max-width: 1395px) {
+    .pizza-list-parent{
+        display: inline-block !important;
+    }
+}

@@ -8,4 +8,11 @@ $(document).ready(function(){
         $(this).carousel('next');
     });
 
+    $(".item-ico").click(function () {
+            $( "#barb" ).dialog();
+    })
+
+    $( function() {
+        $( "#dialog" ).dialog();
+    } );
 });
