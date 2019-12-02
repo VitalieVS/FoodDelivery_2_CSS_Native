@@ -1,15 +1,15 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $( ".content-item" ).click(function() {
-        alert( "Handler for .click() called." );
+    $(".content-item").click(function () {
+        alert("Handler for .click() called.");
     });
 
-    $( function() {
-        $( document ).tooltip();
-    } );
+    $(function () {
+        $(document).tooltip();
+    });
 
     $('.item-price').click(function () {
-      alert($(this).attr("data-value")*1);
+        alert($(this).attr("data-value") * 1);
     });
 
 });

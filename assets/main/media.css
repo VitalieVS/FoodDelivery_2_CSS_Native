@@ -31,6 +31,10 @@
     #news-panel h2 {
         font-size: 15px;
     }
+    .dessert-list-parent{
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-template-rows: repeat(6, 1fr) !important;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -53,6 +57,9 @@
     }
 
     .salad-list-parent {
+        display: inline-block !important;
+    }
+    .dessert-list-parent{
         display: inline-block !important;
     }
 }
