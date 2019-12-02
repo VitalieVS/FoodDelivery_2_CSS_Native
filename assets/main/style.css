@@ -459,32 +459,6 @@ h2 {
     text-align: center;
 }
 
-#news-panel .news-list li:nth-child(1) {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-#news-panel .news-list li:nth-child(2) {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-#news-panel .news-list li:nth-child(3) {
-    grid-area: 1 / 3 / 2 / 4;
-}
-
-#news-panel .news-list li:nth-child(4) {
-    grid-area: 2 / 1 / 3 / 2;
-}
-
-#news-panel .news-list li:nth-child(5) {
-    grid-area: 2 / 2 / 3 / 3;
-}
-
-#news-panel .news-list li:nth-child(6) {
-    grid-area: 2 / 3 / 3 / 4;
-}
-
-#news-panel .news-list li .news-list-content {
-}
 
 #news-panel img {
     width: 100%;
@@ -528,30 +502,6 @@ footer i a {
 footer i:hover {
     border: 2px solid yellow;
     cursor: pointer;
-}
-
-footer .footer-content li:nth-child(1) {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-footer .footer-content li:nth-child(2) {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-footer .footer-content li:nth-child(3) {
-    grid-area: 1 / 3 / 2 / 4;
-}
-
-footer .footer-content li:nth-child(4) {
-    grid-area: 2 / 1 / 3 / 2;
-}
-
-footer .footer-content li:nth-child(5) {
-    grid-area: 2 / 2 / 3 / 3;
-}
-
-footer .footer-content li:nth-child(6) {
-    grid-area: 2 / 3 / 3 / 4;
 }
 
 /* ----------------------- First page done*/
@@ -603,8 +553,7 @@ h3 {
 }
 
 .item-text {
-    float: left;
-    margin-left: 30%;
+    margin-left: 10%;
 }
 
 .content-item {
@@ -612,6 +561,7 @@ h3 {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+
 }
 
 .item-text {
@@ -621,7 +571,7 @@ h3 {
 }
 
 .item-ico {
-    margin-left: 80%;
+    margin-left: 30%;
 }
 
 .item-ico:hover {
@@ -640,59 +590,6 @@ h3 {
     list-style: none;
 }
 
-.hamb-list-parent li:nth-child(1) {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.hamb-list-parent li:nth-child(2) {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.hamb-list-parent li:nth-child(3) {
-    grid-area: 1 / 3 / 2 / 4;
-}
-
-.hamb-list-parent li:nth-child(4) {
-    grid-area: 2 / 1 / 3 / 2;
-}
-
-.hamb-list-parent li:nth-child(5) {
-    grid-area: 2 / 2 / 3 / 3;
-}
-
-.hamb-list-parent li:nth-child(6) {
-    grid-area: 2 / 3 / 3 / 4;
-}
-
-.hamb-list-parent li:nth-child(7) {
-    grid-area: 3 / 1 / 4 / 2;
-}
-
-.hamb-list-parent li:nth-child(8) {
-    grid-area: 3 / 2 / 4 / 3;
-}
-
-.hamb-list-parent li:nth-child(9) {
-    grid-area: 3 / 3 / 4 / 4;
-}
-
-.hamb-list-parent li:nth-child(10) {
-    grid-area: 4 / 1 / 5 / 2;
-}
-
-.hamb-list-parent li:nth-child(11) {
-    grid-area: 4 / 2 / 5 / 3;
-}
-
-.hamb-list-parent li:nth-child(12) {
-    grid-area: 4 / 3 / 5 / 4;
-}
-
-.hamb-list-parent li:nth-child(13) {
-    grid-area: 5 / 1 / 6 / 2;
-}
-
-
 /*--------------Sushi...-------------------*/
 
 .sushi-list-parent {
@@ -703,7 +600,6 @@ h3 {
     grid-row-gap: 20px;
     list-style: none;
 }
-
 
 /*-------------Salad...--------------------*/
 
@@ -755,6 +651,33 @@ h3 {
     list-style: none;
 }
 
-.drinks-list-parent img{
+.drinks-list-parent img {
     height: 300px;
+}
+
+/*-------------Snacks...--------------------*/
+
+.snacks-list-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    list-style: none;
+}
+
+.snacks-list-parent img {
+    height: 300px;
+}
+
+/*------------------DropdownCart...---------------------*/
+
+header li:nth-child(1) .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    width: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    border-radius: 20px;
 }

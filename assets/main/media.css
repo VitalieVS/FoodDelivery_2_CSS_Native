@@ -31,7 +31,8 @@
     #news-panel h2 {
         font-size: 15px;
     }
-    .dessert-list-parent{
+
+    .dessert-list-parent {
         grid-template-columns: repeat(2, 1fr) !important;
         grid-template-rows: repeat(6, 1fr) !important;
     }
@@ -59,7 +60,8 @@
     .salad-list-parent {
         display: inline-block !important;
     }
-    .dessert-list-parent{
+
+    .dessert-list-parent {
         display: inline-block !important;
     }
 }
@@ -69,7 +71,12 @@
         min-width: 140px !important;
         margin-left: -15%;
     }
-    .drinks-list-parent{
+
+    .drinks-list-parent {
+        display: inline-block !important;
+    }
+
+    .snacks-list-parent {
         display: inline-block !important;
     }
 }
@@ -79,8 +86,14 @@
         grid-template-columns: repeat(4, 1fr) !important;
         grid-template-rows: repeat(3, 1fr) !important;
     }
-    .drinks-list-parent{
+
+    .drinks-list-parent {
         grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+    }
+
+    .snacks-list-parent {
+        grid-template-columns: repeat(2, 1fr) !important;
         grid-template-rows: repeat(3, 1fr) !important;
     }
 }
@@ -104,7 +117,7 @@
 }
 
 @media only screen and (max-width: 1225px) {
-    .drinks-list-parent{
+    .drinks-list-parent {
         grid-template-columns: repeat(2, 1fr) !important;
         grid-template-rows: repeat(4, 1fr) !important;
     }
