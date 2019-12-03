@@ -14,7 +14,6 @@ $(document).ready(function () {
     $('.item-price').click(function () {
         let itemPrice = ($(this).attr("data-value") * 1);
         priceAdd(itemPrice);
-        incrementCartItems();
         cartDisplay();
     });
 
@@ -39,6 +38,7 @@ $(document).ready(function () {
 
     function cartSum() {
         cartPrice.forEach(totalPrice);
+        incrementCartItems();
     }
 
     function totalPrice(item) {
